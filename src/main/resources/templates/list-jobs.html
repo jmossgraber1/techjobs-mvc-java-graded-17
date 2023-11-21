@@ -11,6 +11,45 @@
   <h1 th:text="${#strings.capitalizeWords(title)}"></h1>
 
   <!-- TODO #1 - Use a loop to display job results in a table. -->
+    ArrayList<String> jobResults = new ArrayList<>();
+for (int i = 0; i < jobs.size(); i ++){
+    if (
+    }
+
+    <table class="job-listing">
+        <tr>
+            <td>ID</td>
+            <td>${}</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>${}</td>
+        </tr>
+        <tr>
+            <td>Employer</td>
+            <td>${}</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>${}</td>
+        </tr>
+        <tr>
+            <td>Postion Type</td>
+            <td>${}</td>
+        </tr>
+        <tr>
+            <td>Skill</td>
+            <td>${}</td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
+
+
+
 
 </div>
 
