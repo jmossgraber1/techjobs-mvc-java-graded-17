@@ -30,7 +30,7 @@ public class SearchController {
     // TODO #3 - Create a handler to process a search request and render the updated search view.
 
 
-    @PostMapping("/results") // is it post even? need to review this concept
+    @PostMapping("results") // is it post even? need to review this concept
     public String displaySearchResults(Model model, @RequestParam String searchType, @RequestParam String searchTerm) {
         ArrayList<Job> jobs;
 
